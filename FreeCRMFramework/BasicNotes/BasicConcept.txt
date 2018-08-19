@@ -1,0 +1,43 @@
+absolute xpath: not recommended
+		//*[@id='headersearchbar']/div/div[2]/table/tbody/tr/td[2]/input
+		
+		1. performance issue
+		2. not reliable
+		3. can be changed at any time in future
+		
+		
+		isDisplayed()  v/s  isEnabled()  v/s   isSelected() 
+Notes:
+•	isDisplayed() is the method used to verify presence of a web element within the webpage.
+ The method returns a “true” value if the specified web element is present on the web page and a “false” value if the web element is not present on the web page.
+•	isDisplayed() is capable to check for the presence of all kinds of web elements available.
+•	isEnabled() is the method used to verify if the web element is enabled or disabled within the webpage.
+•	isEnabled() is primarily used with buttons.
+•	isSelected() is the method used to verify if the web element is selected or not. isSelected() 
+method is pre-dominantly used with radio buttons, dropdowns and checkboxes.
+
+//1. alerts -- JavaScript Pop UP-- Alert API (accept, dismiss)
+//2. File Upload pop up -- Browse Button (type = file, sendKeys(path)
+//3. Browser Window Popup - Advertisement pop up (windowHandler API - getWindowHandles() )
+		
+		
+TestNG -- unit test framework
+TDD -- Test Driven Development
+
+purpose--design test cases in a systematic way
+--html reports
+--diff annotations
+--priorities/sequence
+--dependency
+--grouping
+--data provider
+
+
+testng--open source, free
+JAR files
+
+--Java unit testing framework
+
+
+install Testng in Eclipse:
+http://beust.com/eclipse/
